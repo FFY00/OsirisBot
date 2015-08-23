@@ -16,6 +16,6 @@ public class Osiris {
         while(!pw.osiris.dev.LOGIN.Login.logado){
             // Faz porra nenhuma :/
         }
-        System.out.println("teste ot vez");
+        
     }
 }
