@@ -14,7 +14,7 @@ import java.util.Scanner;
  * @author FFY00
  */
 public class HTTP {
-        static String request(String urlloc) {
+        public static String request(String urlloc) {
         try {
             java.net.URL url = new java.net.URL(urlloc);
             URLConnection openConnection = url.openConnection();

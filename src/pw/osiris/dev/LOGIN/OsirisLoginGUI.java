@@ -121,7 +121,7 @@ public class OsirisLoginGUI extends javax.swing.JPanel {
     private javax.swing.JFormattedTextField inputUser;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel labelPassword;
-    private javax.swing.JLabel labelStatsPassword;
+    javax.swing.JLabel labelStatsPassword;
     private javax.swing.JLabel labelTitulo;
     private javax.swing.JLabel labelUser;
     // End of variables declaration//GEN-END:variables
