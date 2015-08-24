@@ -10,6 +10,9 @@ package pw.osiris.dev.LOGIN;
  * @author FFY00
  */
 public class OsirisLoginGUI extends javax.swing.JPanel {
+    public static void errarPassword(){
+        labelStatsPassword.setText("Invalid Password");
+    }
 
     /**
      * Creates new form OsirisLoginGUI
@@ -116,12 +119,12 @@ public class OsirisLoginGUI extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_inputPasswordActionPerformed
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify
     private javax.swing.JPasswordField inputPassword;
     private javax.swing.JFormattedTextField inputUser;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel labelPassword;
-    public static javax.swing.JLabel labelStatsPassword;
+    static javax.swing.JLabel labelStatsPassword;
     private javax.swing.JLabel labelTitulo;
     private javax.swing.JLabel labelUser;
     // End of variables declaration//GEN-END:variables
