@@ -15,6 +15,7 @@ public class Osiris {
         System.out.println("Author: " + pw.osiris.dev.VAR.BotInfo.autor);
         while(!pw.osiris.dev.LOGIN.Login.logado){
             // Faz porra nenhuma :/
+            // Bloqueia enquanto espera pw.osiris.dev.LOGIN.Login.logado virar true
         }
         
     }
