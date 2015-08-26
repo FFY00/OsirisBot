@@ -10,5 +10,6 @@ package pw.osiris.dev.VAR;
  * @author FFY00
  */
 public class MSG {
-    String ajuda = "";
+    public static final String ajuda = "";
+    public static final String novoUser = "/me . \n\nWelcome to Osirisot! Type !help to show the list of my commands...";
 }
