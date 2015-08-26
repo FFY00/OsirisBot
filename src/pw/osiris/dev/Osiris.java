@@ -18,6 +18,7 @@ public class Osiris {
         
         // Luigi, essa bosta devia mostrar GUI mas n ta mostrando '-'
         OsirisLoginGUI loginGUI = new OsirisLoginGUI();
+        loginGUI.setSize(300, 200);
         loginGUI.setVisible(true);
         
         while(!pw.osiris.dev.VAR.GLOBAL.logado){

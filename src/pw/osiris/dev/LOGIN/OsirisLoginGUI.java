@@ -5,8 +5,6 @@
  */
 package pw.osiris.dev.LOGIN;
 
-import java.awt.LayoutManager;
-
 /**
  *
  * @author FFY00
