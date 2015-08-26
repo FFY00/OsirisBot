@@ -5,6 +5,8 @@
  */
 package pw.osiris.dev.GUI;
 
+import javax.swing.JTextArea;
+
 /**
  *
  * @author FFY00
@@ -21,6 +23,11 @@ public class OsirisGUI extends javax.swing.JFrame {
     public void escreverLog(String texto){
         String logAntigo = textLog.toString();
         String logNovo = logAntigo + "\n" + texto;
+        textLog.setText(logNovo);
+    }
+    
+    public JTextArea textLog(){
+        return textLog;
     }
     
     public static OsirisGUI formOsiris = new OsirisGUI();
