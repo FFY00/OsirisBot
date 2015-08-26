@@ -13,11 +13,22 @@ package pw.osiris.dev;
 public class Osiris {
     public static void main(String[] args){
         System.out.println("Starting " + pw.osiris.dev.VAR.BotInfo.nome + " v" + pw.osiris.dev.VAR.BotInfo.v + " " + pw.osiris.dev.VAR.BotInfo.estado);
-        System.out.println("Author: " + pw.osiris.dev.VAR.BotInfo.autor);
+        System.out.println("Author: " + pw.osiris.dev.VAR.BotInfo.autor + "\n");
         pw.osiris.dev.LOGIN.OsirisLoginGUI2.main(args);
         while(!pw.osiris.dev.VAR.GLOBAL.logado){
-            // Faz porra nenhuma :/
-            // Bloqueia o programa enquanto espera ppw.osiris.dev.VAR.GLOBAL.logado virar true
+            /**
+             * Faz porra nenhuma :/
+             * Bloqueia o programa enquanto espera ppw.osiris.dev.VAR.GLOBAL.logado virar true
+             */ 
+            // Dev Testing
+            //System.out.println(".");
+        }
+        if(pw.osiris.dev.VAR.GLOBAL.logado){ // So pra confirmar que ta logado e_e
+        pw.osiris.dev.LOGIN.OsirisLoginGUI2.formLogin.setVisible(false);
+        System.out.println("\nStarting OsirisBot");
+        System.out.println("Login GUI has been hidden");
+        pw.osiris.dev.GUI.OsirisGUI.main(args);
+        System.out.println("Osiris GUI panel has been showed");
         }
     }
 }
