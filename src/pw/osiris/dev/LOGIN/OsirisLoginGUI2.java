@@ -20,6 +20,10 @@ public class OsirisLoginGUI2 extends javax.swing.JFrame {
         initComponents();
     }
     
+    public static void esconder(){
+        formLogin.setVisible(false);
+    }
+    
     public static OsirisLoginGUI2 formLogin = new OsirisLoginGUI2();
 
     /**
@@ -120,9 +124,10 @@ public class OsirisLoginGUI2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void butaoLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_butaoLoginActionPerformed
-        boolean autenticou = pw.osiris.dev.LOGIN.Login.autenticar(inputUser.toString(), inputPassword.toString());
+        boolean autenticou = pw.osiris.dev.LOGIN.Login.autenticar(inputUser.getText(), inputPassword.getText());
         if(autenticou){
             System.out.println("Sucess Login\n");
+            labelErrou.setText("");
         } else {
             System.err.println("Invalid Password");
             labelErrou.setText("Invalid Password");

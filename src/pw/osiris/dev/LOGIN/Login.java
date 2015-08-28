@@ -14,8 +14,8 @@ public class Login {
     public static boolean autenticar(String user, String password){
         String server = pw.osiris.dev.VAR.GLOBAL.server + "?u=" + user + "&p=" + password;
         try{
-        String resposta = pw.osiris.dev.URL.HTTP.request(server);
-        return resposta.equalsIgnoreCase("sim");
+            String resposta = pw.osiris.dev.URL.HTTP.request(server);
+            return resposta.equalsIgnoreCase("sim ");
         } catch(NullPointerException e) {
             return false;
         }

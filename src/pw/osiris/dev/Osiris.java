@@ -31,7 +31,7 @@ public class Osiris {
             System.out.println("\nStarting OsirisBot");
             
             // Esconder LoginGUI
-            pw.osiris.dev.LOGIN.OsirisLoginGUI2.formLogin.setVisible(false);
+            pw.osiris.dev.LOGIN.OsirisLoginGUI2.esconder();
             System.out.println("Login GUI has been hidden");
             
             // Verificar Skype
