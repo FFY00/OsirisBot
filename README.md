@@ -2,10 +2,9 @@
 
 OsirisBot - Java Skype Bot with GUI
 
-### Autors ###
+### Autor ###
 
 * Filipe Laíns (FFY00)
-* Luigi Oliveira (Luigieai)
 
 ### Dependencies ###
 
